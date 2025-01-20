@@ -1,11 +1,7 @@
 :root{
     --dis-back-header:#3161e0;
-    --dis-menu-bar:#3161e0;
-    --dis-block-jumbotron:#ee82ee;
-    --dis-little-block:#ffc0cb;
-    --dis-big-block:#1e90ff;
     --dis-lighter:#ffffff;
-    --dis-back-CT:#d3d3d3;
+    --dis-back-CT:#f6f6f6;
     --dis-bigger-block:#228b22;
     --dis-last-section:#f08080;
     --dis-last-group:#20b2aa;
@@ -106,8 +102,8 @@ background-color: #d3d3d3;
     display: flex;
     justify-content: center;
     background-image: url(../img/jumbo.png);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
 
 }
 
@@ -166,17 +162,16 @@ p{
 
 .big{ 
     background-image: url(../img/item1.svg);
-    background-size: cover;
-    background-repeat: no-repeat ;  
-    display: flex;
+    background-size: 100% 100%;
+      
     width: 45%; 
-    min-height: 4rem;
+    min-height: 10rem;
     margin-right: 2rem;
 }
 
 .small{
     width: 25%;
-    min-height: 4rem;
+    min-height: 10rem;
     
 }
 
@@ -184,7 +179,12 @@ p{
 .flex-cont{
     display: flex;
     flex-direction: row-reverse;
-    background-color: var(--dis-back-CT);     
+    background-color: var(--dis-back-CT);  
+}
+
+.community{
+    background-image: url(../img/item2.svg);
+    background-size: 100% 100%;   
 }
 
 /* technology section */
