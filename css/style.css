@@ -94,6 +94,10 @@ background-color: #d3d3d3;
     padding-left: 5px;
 }
 
+.title{
+    font-size: 2.5rem;
+}
+
 /* main */
 /* jumbotron-section */
 .container{
@@ -104,6 +108,7 @@ background-color: #d3d3d3;
     background-image: url(../img/jumbo.png);
     background-size: cover;
     background-repeat: no-repeat;
+
 }
 
 .jumbo{
@@ -143,28 +148,36 @@ background-color: #d3d3d3;
     
 }
 
+p{
+    padding-top: 1rem;
+    font-size: 12px;
+}
+
 /* invite_only section  */
 .flex-contain {
     display: flex;
     justify-content: center;
     padding-top: 2rem;
-    padding-bottom: 2rem;     
+    padding-bottom: 2rem;
+    
 }
 
-.big{   
-    max-width: 500px;  
+
+
+.big{ 
+    background-image: url(../img/item1.svg);
+    background-size: cover;
+    background-repeat: no-repeat ;  
+    display: flex;
     width: 45%; 
     min-height: 4rem;
-    background-color: var(--dis-big-block);
-    height: 11rem;
+    margin-right: 2rem;
 }
 
 .small{
     width: 25%;
-    max-width: 300px;
     min-height: 4rem;
-    background-color: var(--dis-footer-buttons);
-    height: 11rem;
+    
 }
 
 /* cummunity section*/
