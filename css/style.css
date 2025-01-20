@@ -3,7 +3,7 @@
     --dis-lighter:#ffffff;
     --dis-back-CT:#f6f6f6;
     --dis-download-button:#8ea1e1;
-    --dis-last-section:#f08080;
+    --dis-title-footer:#7288d9;
     --dis-last-group:#20b2aa;
     --dis-darker:#23272a;
     --dis-footer-bar:#7fffd4;
@@ -44,6 +44,28 @@
     .call{
         
         background-color: var(--dis-back-CT);
+    }
+
+    .menuf{
+        color: var(--dis-lighter);
+    }
+
+    .foot{
+        color: var(--dis-title-footer);
+    }
+
+    .p-footer{
+        color: var(--dis-lighter);
+    }
+
+    .download{
+        background-color: var(--dis-download-button);
+        color: var(--dis-lighter);
+    }
+
+    .registration-button{
+        color: var(--dis-lighter);
+        background-color: var(--dis-download-button);
     }
 }
 
@@ -214,6 +236,7 @@ p{
 
 .download{
     background-color: var(--dis-download-button);
+    color: var(--dis-lighter);
     border-radius: 50px;
     padding: 5px 15px;
     border: none;
@@ -223,25 +246,44 @@ p{
     width: 100%;
 }
 
-/* last section */
-.last-section{
+/* footer menu */
+.footer-menu{
     display: flex;
     padding-top: 0.5rem;
     background-color: var(--dis-darker); 
-    border-bottom: 1px solid var(--dis-back-CT);
+}
+
+.menuf{
+    display: flex;
+    align-items: center;
+}
+
+.ita{
+    width: 20px;
+    margin-right: 5px;
+    
+}
+
+.social{
+    width: 15px;
+    margin-right: 1rem;
+    margin-top: 0.8rem;
 }
 
 .main-column{   
     min-height: 10rem;
-    width: 30%;
-    background-color: var(--dis-last-section);
+    width: 25%;
+    padding-top: 2rem;
 }
 
 .small-column{
-    min-height: 10rem;
+    min-height: 5rem;
     width: 10%;
-    background-color: var(--dis-last-group);
+    margin-left: 1rem;
+    padding-top: 2rem;
 }
+
+
 
 .footer-bar{
     display: flex;
@@ -252,21 +294,28 @@ p{
 }
 
 .bar{
-    background-color: var(--dis-footer-bar);
     height: 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    border-top: 1px solid var(--dis-title-footer);
+
 }
+
 
 .button{
-    font-size: 9px;
-    border: none;
-    background-color: var(--dis-footer-buttons);
-    padding: 0.2rem;
-    cursor: pointer;
+    min-width: 5rem;
+    min-height: 5rem;
+    background-size: 100% 100%;
+    background-image: url(../img/logo.svg);
 }
 
-button:hover{
-    background-color: #d3d3d3;
+.registration-button{
+    font-size: 8px;
+    border-radius: 50px;
+    padding: 3px 5px;
+    border: none;
+    
 }
