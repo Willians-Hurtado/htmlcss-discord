@@ -2,7 +2,7 @@
     --dis-back-header:#3161e0;
     --dis-lighter:#ffffff;
     --dis-back-CT:#f6f6f6;
-    --dis-bigger-block:#228b22;
+    --dis-download-button:#8ea1e1;
     --dis-last-section:#f08080;
     --dis-last-group:#20b2aa;
     --dis-darker:#23272a;
@@ -40,10 +40,15 @@
     .windows{
         background-color: var(--dis-darker);
     }
+
+    .call{
+        
+        background-color: var(--dis-back-CT);
+    }
 }
 
 .flex-container{
-    width: 80%;
+    width: 70%;
     display: flex;
     margin: auto;   
 }
@@ -152,6 +157,7 @@ p{
 /* invite_only section  */
 .flex-contain {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: 2rem;
@@ -191,17 +197,30 @@ p{
 }
 
 /* technology section */
-.tech-contain{
+.tech{
+    width: 100%;
+    background-image: url(../img/item4-big.svg);
+    background-size: 100% 100%;
+    min-height: 15rem;
+}
+.star{
+    width: 25%;
     display: flex;
-    background-color: var(--dis-back-CT);
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+    margin-bottom: 0%;
 }
 
-.tech{
-    max-width: 800px;
-    width: 70%;
-    min-height: 4rem;
-    background-color: var(--dis-bigger-block);
-    height: 15rem;
+.download{
+    background-color: var(--dis-download-button);
+    border-radius: 50px;
+    padding: 5px 15px;
+    border: none;
+    margin-top: 1.5rem;
+}
+.stelle{
+    width: 100%;
 }
 
 /* last section */
