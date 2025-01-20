@@ -1,7 +1,6 @@
 :root{
     --dis-back-header:#3161e0;
     --dis-menu-bar:#3161e0;
-    --dis-back-jumbotron:#00008b;
     --dis-block-jumbotron:#ee82ee;
     --dis-little-block:#ffc0cb;
     --dis-big-block:#1e90ff;
@@ -22,11 +21,28 @@
 }
 
 .debug{
+
+    font-family: Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
     .head{
         background-color: var(--dis-back-header);
     }
+
     .space{
         color: var(--dis-lighter);
+    }
+
+    .font-color{
+        color: var(--dis-lighter);
+    }
+
+    .log-in{
+        background-color: var(--dis-lighter);
+        border: none;
+    }
+
+    .windows{
+        background-color: var(--dis-darker);
     }
 }
 
@@ -61,11 +77,8 @@
 }
 
 .log-in{
-    background-color: var(--dis-lighter);
-    border: none;
     border-radius: 50px;
-    padding: 7px 10px;
-    
+    padding: 7px 10px;   
 }
 a:hover{
 background-color: #d3d3d3;
@@ -84,19 +97,50 @@ background-color: #d3d3d3;
 /* main */
 /* jumbotron-section */
 .container{
-    background-color: var(--dis-back-jumbotron);
     padding-top: 2rem;
     padding-bottom: 2rem;
     display: flex;
     justify-content: center;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .jumbo{
-    width: 55%;
-    max-width: 550px; 
+    width: 50%; 
     min-height: 4rem;
-    background-color: var(--dis-block-jumbotron);
-    height: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 4rem;  
+}
+
+.font-color{
+    padding-bottom: 2rem;
+    text-align: center;
+}
+
+.mac{
+    border-radius: 50px;
+    padding: 0px 15px; 
+    display: flex;
+    align-items: center;
+    margin-right: 1rem
+}
+
+#arrow{
+    font-size: 1.1rem;
+}
+
+.windows{
+    border-radius: 50px;
+    padding: 15px 15px; 
+    border: none;
+    margin-left: 1rem;   
+}
+
+.item{
+    display: flex;
+    justify-content: center;
+    
 }
 
 /* invite_only section  */
