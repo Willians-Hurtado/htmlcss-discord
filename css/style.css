@@ -158,8 +158,6 @@ p{
     
 }
 
-
-
 .big{ 
     background-image: url(../img/item1.svg);
     background-size: 100% 100%;
@@ -173,6 +171,11 @@ p{
     width: 25%;
     min-height: 10rem;
     
+}
+
+/* fandom section */
+.fandom{
+    background-image: url(../img/item3.svg);
 }
 
 /* cummunity section*/
